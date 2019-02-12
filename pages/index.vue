@@ -21,11 +21,11 @@
       <div class="introduce-section__button_wrapper">
           <button
             class="introduce-section__button custom-button button--white">
-            도움말
+            <span class="introduce-section__button__label">도움말</span> <i class="far fa-question-circle"></i>
           </button>
         <nuxt-link :to="{name: 'make-event-step1'}">
           <button class="introduce-section__button custom-button button--gray">
-            시작하기
+            <span class="introduce-section__button__label">시작하기</span> <i class="far fa-play-circle"></i>
           </button>
         </nuxt-link>
       </div>
@@ -125,6 +125,10 @@
 
   .introduce-section__button {
     width: 30%;
+  }
+
+  .introduce-section__button__label + svg {
+    vertical-align:  middle;
   }
 </style>
 
