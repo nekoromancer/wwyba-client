@@ -5,7 +5,7 @@
                  tabindex="1"
                  class="header-section__title-anchor">
         <span class="header-section__title-text">
-          <i class="fas fa-calendar-alt"></i> 일정 조정하기
+          <i class="fas fa-calendar-alt"></i> Wwyba?
         </span>
       </nuxt-link>
     </h1>

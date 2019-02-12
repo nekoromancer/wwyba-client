@@ -20,6 +20,7 @@
       </p>
       <div class="introduce-section__button_wrapper">
           <button
+            @click="showHelp"
             class="introduce-section__button custom-button button--white">
             <span class="introduce-section__button__label">도움말</span> <i class="far fa-question-circle"></i>
           </button>
@@ -39,6 +40,13 @@
     created () {
       this.$store.commit('event/init');
     },
+    methods: {
+      showHelp () {
+        this.$store.commit('modal/open', {
+          templateName: 'Help'
+        });
+      }
+    }
   }
 </script>
 

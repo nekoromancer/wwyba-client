@@ -19,11 +19,13 @@
 </template>
 <script>
   import AddTime from '~/components/modals/add-time.vue';
+  import Help from '~/components/modals/help.vue';
 
   export default {
     name: 'modal-layout',
     components: {
       AddTime,
+      Help,
     },
     computed: {
       modalShow () {
@@ -83,5 +85,6 @@
   .modal-wrapper {
     position: relative;
     width: 100%;
+    height: 80%;
   }
 </style>
