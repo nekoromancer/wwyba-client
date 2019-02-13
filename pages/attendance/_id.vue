@@ -91,6 +91,7 @@
       <div class="attendance__button-wrapper">
         <button
           class="custom-button button--white attendance__show-result-button"
+          @click="showResult"
           tabindex="110">
           <i class="far fa-edit modify-button__icon"></i> 결과보기
         </button>
@@ -173,6 +174,13 @@
     methods: {
       setAnswer ($idx, $value) {
         this.$set(this.answers, $idx, $value);
+      },
+      showResult () {
+        const id = this.$route.params.id;
+
+        this.$router.push({
+          path: `/result/${id}`
+        });
       },
       submit () {
         const id = this.$route.params.id;
