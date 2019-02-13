@@ -5,7 +5,7 @@
                  tabindex="1"
                  class="header-section__title-anchor">
         <span class="header-section__title-text">
-          <i class="fas fa-calendar-alt"></i> Wwyba?
+          <i class="fas fa-calendar-alt"></i> 시간 언제 괜찮으세요?
         </span>
       </nuxt-link>
     </h1>

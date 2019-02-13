@@ -184,7 +184,7 @@
             type: 'warning',
             showCancelButton: true,
             cancelButtonText: '취소',
-            confirmButtonText: '제출하기',
+            confirmButtonText: '제출',
             cancelButtonColor: '#c8c8c8',
             confirmButtonColor: '#248232',
           }).then(result => {
