@@ -1,5 +1,7 @@
 {
- "name": "App",
+ "name": "시간 언제?",
+ "background_color": "#248232",
+ "display": "standalone",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
