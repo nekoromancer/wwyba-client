@@ -34,6 +34,8 @@ module.exports = {
       { hid: 'og:title', property: 'og:title', content: '시간 언제 괜찮으세요?' },
       { hid: 'og:description', property: 'og:description', content: '모임 날짜 잡을 건데, 시간 언제 괜찮으세요? 많은 사람이 참석하는 모임 날짜를 조정하고 일정을 기획하는 것은 어렵습니다. 이제 간편하게 해보세요!' },
       { property: 'og:image', content: `${process.env.HOST_URL}/title-image.png` },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:creator', content: '@nerfThisRabbit' },
       { name: 'msapplication-TileColor', content: '#ffffff' },
       { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' },
       { name: 'theme-color', content: '#ffffff'},

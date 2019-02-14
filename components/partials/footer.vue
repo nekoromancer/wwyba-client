@@ -2,10 +2,10 @@
   <footer class="footer-section">
     <p class="footer-section__content">
       ⓒ 2019 Nekoromancer All rights reserved. <br>
-      <a href="mailto:nekonitrate@gmaill.com"
+      <a href="mailto:producer@765production.co.kr"
          class="footer-section__anchor"
          tabindex="300">
-        Email: nekonitrate@gmail.com
+        Email: producer@765production.co.kr
       </a>
     </p>
     <p class="footer-section__content">
