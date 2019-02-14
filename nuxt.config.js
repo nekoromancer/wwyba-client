@@ -101,6 +101,7 @@ module.exports = {
     '@nuxtjs/style-resources',
     '@nuxtjs/axios',
     '@nuxtjs/dotenv',
+    '@nuxtjs/pwa',
     'cookie-universal-nuxt',
   ],
   styleResources: {

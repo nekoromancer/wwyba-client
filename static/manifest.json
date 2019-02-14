@@ -1,6 +1,8 @@
 {
- "name": "시간 언제?",
+ "name": "시간 언제 괜찮으세요?",
+ "short_name": "시간 언제?",
  "background_color": "#248232",
+ "start_url": "https://wwyba.app",
  "display": "standalone",
  "icons": [
   {
