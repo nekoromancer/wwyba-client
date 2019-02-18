@@ -36,10 +36,11 @@ module.exports = {
       { property: 'og:image', content: `${process.env.HOST_URL}/title-image.png` },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:creator', content: '@nerfThisRabbit' },
-      { name: 'msapplication-TileColor', content: '#ffffff' },
+      { name: 'msapplication-TileColor', content: '#248232' },
       { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' },
-      { name: 'theme-color', content: '#ffffff'},
+      { name: 'theme-color', content: '#248232'},
       { name: 'apple-mobile-web-app-capable', content: 'yes'},
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

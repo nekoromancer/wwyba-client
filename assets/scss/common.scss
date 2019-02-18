@@ -30,6 +30,10 @@ $tabletBreakPoint: 1080px;
   font-family: 'NanumSquareRound', "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+body {
+  background-color: $darkGreen;
+}
+
 .container {
   position: relative;
   z-index: 0;

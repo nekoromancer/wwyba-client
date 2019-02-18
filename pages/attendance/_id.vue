@@ -238,6 +238,10 @@
   }
 </script>
 <style lang="scss" scoped>
+  .attendance-container {
+    background-color: $white;
+  }
+
   .attendance-wrapper {
     position: relative;
     overflow: hidden;

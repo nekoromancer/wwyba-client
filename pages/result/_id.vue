@@ -105,6 +105,9 @@
   }
 </script>
 <style lang="scss" scoped>
+  .result-container {
+    background-color: $white;
+  }
   .result-wrapper {
     position: relative;
     overflow: hidden;
