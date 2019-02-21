@@ -123,7 +123,7 @@
     background-color: $white;
     border-radius: 5px;
     margin: auto;
-    padding: 1.5em;
+    padding: 1em;
   }
 
   .help__wrapper {
@@ -143,7 +143,15 @@
   }
 
   .help__image {
-    width: 180px;
+    width: 140px;
+
+    @include media(tablet) {
+      width: 180px;
+    }
+
+    @include media(desktop) {
+      width: 180px;
+    }
   }
 
   .help__article {

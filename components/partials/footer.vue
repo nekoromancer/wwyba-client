@@ -9,7 +9,7 @@
       </a>
     </p>
     <p class="footer-section__content">
-      이 페이지에는 네이버에서 제공한 나눔글꼴이 적용되어 있습니다.<br>
+      네이버에서 제공하는 나눔글꼴이 적용되어 있습니다.<br>
       <a target="_blank"
          class="footer-section__anchor footer-section__font-license"
          tabindex="400"

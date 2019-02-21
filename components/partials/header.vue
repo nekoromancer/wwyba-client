@@ -26,7 +26,7 @@
   .header-section__title {
     margin: 0 auto;
     padding: 0.5em;
-    font-size: 1.75em;
+    font-size: 1.5em;
     max-width: 720px;
 
     .fa-calendar-alt {
