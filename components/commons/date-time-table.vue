@@ -13,7 +13,7 @@
         :key="date.string"
         :colspan="date.length"
         :rowspan="date.length === 0 ? 2 : ''">
-        {{moment(date.string).locale('ko').format('YYYY년 MM월 DD일')}}
+        {{moment(date.string).locale('ko').format('YYYY년 MM월 DD일(ddd)')}}
       </th>
     </tr>
     <tr>
